@@ -68,6 +68,74 @@
 }
 
 
+.whiteBox {
+	background-color: #EEEEEE;
+	height: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	margin-right: 30px;
+}
+.marginLeft {
+	margin-left: 30px;
+}
+.hackathonHeader {
+	font-size: 63px;
+}
+
+.hackathonP {
+	margin-bottom: 15px;
+	font-size: 21px;
+	font-weight: 200;
+}
+
+button{
+	border:none;
+	padding:0px;
+	background-color: transparent;
+	cursor:pointer;
+}
+
+
+.button-large {
+	width:150px;
+	height:50px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.button-normal {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: orange;
+	background-image: linear-gradient(to bottom, orange, darkorange);
+	color:#FFF;
+	font-size:20px;
+	-webkit-transition: background-color .3s ease;
+	   -moz-transition: background-color .3s ease;
+	    -ms-transition: background-color .3s ease;
+	     -o-transition: background-color .3s ease;
+	        transition: background-color .3s ease;
+}
+
+button:focus {
+	border:0px;
+}
+
+.button-normal:hover {
+	background-color: #227596;
+	background-image: linear-gradient(to bottom, orange, rgb(252, 197, 97));
+
+
+	-webkit-transition: background-color .3s ease;
+	   -moz-transition: background-color .3s ease;
+	    -ms-transition: background-color .3s ease;
+	     -o-transition: background-color .3s ease;
+	        transition: background-color .3s ease;
+}
 
 
 
