@@ -199,4 +199,11 @@ button:focus {
 }
 
 
+#thingsSection {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color: #336699;
+	color: white;
+}
+
 
