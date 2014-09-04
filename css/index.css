@@ -6,6 +6,22 @@
 
 
 
+.navbar-simple {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: none;
+	filter: none !important;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navLinkStyle {
+	color: white;
+}
+
+
 
 
 #homeHeader {
@@ -14,13 +30,11 @@
 	background: url(../assets/slcValley.jpg) no-repeat center center fixed;
 	background-size: cover;
 	background-color: #02734A;
+	background-attachment: fixed;
+	background-position: middle;
 	margin-top: -22px;
 	
 }
-
-
-
-
 
 .video-container {
     position: relative;
