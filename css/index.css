@@ -6,21 +6,68 @@
 
 
 
+body {
+	font: 16px "Open Sans",Helvetica Neue,sans-serif;
+}
+
+
+
 .navbar-simple {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	
+	padding-bottom: 40px;
 	background: none;
 	filter: none !important;
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
+	/*border-bottom: 1px solid rgba(0,0,0,0.2);*/
 }
 
 .navLinkStyle {
-	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 200;
+	font-style: normal;
+	color: #ffffff;
+	top: 17px;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
+.navLinkStyle:hover {
+	background: none !important;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+
+.signupNav {
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 200;
+	font-style: normal;
+	color: #ffffff;
+	top: 17px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.signupNav:hover {
+	background: none !important;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+.techLogo {
+	height: 60px;
+
+}
 
 
 
@@ -29,7 +76,7 @@
 	padding-bottom: 200px;
 	background: url(../assets/slcValley.jpg) no-repeat center center fixed;
 	background-size: cover;
-	background-color: #02734A;
+	background-color: #ffffff;
 	background-attachment: fixed;
 	background-position: middle;
 	margin-top: -22px;
